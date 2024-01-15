@@ -1,0 +1,50 @@
+@import url('https://unpkg.com/css.gg@2.0.0/icons/css/menu-oreos.css');
+
+*,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px 1px 10px 0px #79a8ff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    nav{
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+
+        li{
+            list-style: none;
+            font-size: 20px;
+            a{
+                color: #79a8ff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .icon{
+        display: none;
+    }
+}
+
+
+@media (max-width: 600px) {
+    header{
+
+
+        .menuResponce{
+            position: absolute;
+            top: 85px;
+            left: 0;
+            width: 200px;
+            height: 100vh;
+        }
+    }
+}
